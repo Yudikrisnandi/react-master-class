@@ -1,0 +1,36 @@
+import React from "react"
+import Input from "../components/Input"
+import Button from "../components/Button"
+
+const Auth = () => {
+  return(
+    <div style={box}>
+      <div>login</div>
+      <div style={input}>
+        <Input/>
+        <Input/>
+        <Button variant="primary" text="login"/>
+      </div>
+    </div>
+  )
+}
+
+export default Auth
+
+const box = {
+  background: "#fff",
+  width: "25%",
+  height: "40%",
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)"
+}
+
+const input = {
+  display: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)"
+}
+
