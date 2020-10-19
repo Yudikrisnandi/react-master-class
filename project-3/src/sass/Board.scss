@@ -1,0 +1,23 @@
+.board {
+  background: #EBECF1;
+  width: 15rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  height: 100%;
+  width: 20rem;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  &__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .dot{
+      width: 50%;
+      text-align: right;
+      img {
+        width: 1rem;
+      }
+    }
+  }
+}
+
